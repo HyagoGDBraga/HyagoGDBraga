@@ -1,112 +1,73 @@
-👋 Olá, eu sou o Hyago
-Full-stack Developer · Backend · Cloud · DevOps
-
-Construo aplicações escaláveis, performáticas e orientadas a problemas reais, atuando do frontend ao deploy.
-
-Atualmente trabalho como Full-stack Developer na MS Soluções e na Fasteng JBR, enquanto curso Sistemas de Informação na Unifacisa.
-
-Tenho especial interesse em backend, arquitetura de sistemas, sistemas distribuídos e cloud-native, e atualmente estou aprofundando meus conhecimentos em Kubernetes e DevOps.
-
-💻 Code by day. 🏋️ Train by night.
-
-🚀 Projetos em destaque
+<h1 align="center">👋 Hey, I'm Hyago</h1> <p align="center"> <strong>Full-stack Developer</strong> · Backend · Cloud · DevOps </p> <p align="center"> Building scalable applications and exploring distributed systems. </p> <p align="center"> <a href="mailto:hyago.gabriel2017@gmail.com"> <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" /> </a> <a href="https://github.com/HyagoGDBraga"> <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /> </a> </p>
+🚀 Projects
+<table> <tr> <td width="50%">
 🎥 Concord
 
-Plataforma de comunicação em tempo real inspirada no Discord, com foco em videochamadas, salas e comunicação entre usuários.
+Real-time communication platform inspired by Discord.
 
-Explorando conceitos como WebRTC, WebSockets, comunicação em tempo real e arquitetura escalável.
+Focus
 
-Stack: TypeScript NestJS React WebRTC WebSockets
+WebRTC WebSockets Real-time Scalability
 
-🏨 Sistema de Gestão Hoteleira
+Stack
 
-Sistema desenvolvido como um monólito modular, com foco em consistência de dados, concorrência e preparação para multi-tenancy.
+TypeScript · NestJS · React
 
-🔒 Row-level locking para evitar overbooking
-🧩 Arquitetura modular
-🏢 Preparado para multi-tenancy
-🗄️ PostgreSQL + Prisma
-⚡ NestJS
+</td> <td width="50%">
+🏨 Hotel Management
 
-Stack: NestJS Prisma PostgreSQL TypeScript
+Modular monolith focused on consistency and concurrency.
 
-🤝 Plataforma de Match de Vagas
+Highlights
 
-Plataforma para conectar candidatos e oportunidades através de busca semântica e processamento assíncrono.
+Row-level Locking Multi-tenancy Transactions
 
-🧠 RAG + busca semântica
-🔎 pgvector
-📨 RabbitMQ
-⚙️ Processamento assíncrono
-🗄️ PostgreSQL
+Stack
 
-Stack: NestJS TypeORM RabbitMQ PostgreSQL pgvector
+NestJS · Prisma · PostgreSQL
 
+</td> </tr> <tr> <td width="50%">
+🤝 Job Matching
+
+Semantic matching platform connecting candidates and opportunities.
+
+Focus
+
+RAG pgvector Async Processing
+
+Stack
+
+NestJS · TypeORM · RabbitMQ
+
+</td> <td width="50%">
+⚙️ Currently Building
+
+Exploring systems involving:
+
+Distributed Systems
+Cloud Native
+WebRTC
+Kubernetes
+
+</td> </tr> </table>
 🛠️ Tech Stack
 Languages
-
-
-
-
-
+<p> <img src="https://skillicons.dev/icons?i=js,ts,java" /> </p>
 Frontend
-
-
-
-
-
-
+<p> <img src="https://skillicons.dev/icons?i=react,nextjs,angular,vite" /> </p>
 Backend
-
-
-
-
+<p> <img src="https://skillicons.dev/icons?i=nodejs,nestjs" /> </p>
 Databases & Messaging
-
-
-
-
-
+<p> <img src="https://skillicons.dev/icons?i=postgres,mongodb,rabbitmq" /> </p>
 Cloud & DevOps
+<p> <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,vercel" /> </p>
+📊 GitHub
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=HyagoGDBraga&show_icons=true&theme=github_dark&hide_border=true" /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HyagoGDBraga&layout=compact&theme=github_dark&hide_border=true" /> </p>
+🎓 About
 
+🎓 Information Systems @ Unifacisa
+💻 Full-stack Developer @ MS Soluções
+💻 Full-stack Developer @ Fasteng JBR
+🇧🇷 Campina Grande, PB
 
-
-
-
-
-📊 GitHub Stats
-<p align="center"> <img height="180" src="https://github-readme-stats.vercel.app/api?username=HyagoGDBraga&show_icons=true&theme=github_dark&hide_border=true&count_private=true" /> <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HyagoGDBraga&layout=compact&theme=github_dark&hide_border=true&langs_count=8" /> </p> <p align="center"> <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=HyagoGDBraga&theme=github-compact&hide_border=true&area=true" /> </p>
-🌱 Atualmente estudando
-Kubernetes
-Cloud Native
-DevOps
-Distributed Systems
-System Design
-WebRTC
-Real-time Applications
-
-
-Meu objetivo é evoluir cada vez mais na construção de sistemas robustos, distribuídos e escaláveis, entendendo não apenas como desenvolver software, mas também como colocá-lo em produção e operá-lo de forma confiável.
-
-💼 Experiência
-
-Full-stack Developer · MS Soluções
-
-Desenvolvimento de aplicações web, APIs e soluções full-stack.
-
-Full-stack Developer · Fasteng JBR
-
-Desenvolvimento de sistemas e soluções voltadas para problemas reais de negócio.
-
-🎓 Formação
-
-Bacharelado em Sistemas de Informação · Unifacisa
-
-7º período · Campina Grande, Paraíba 🇧🇷
-
-📫 Entre em contato
-
-📧 hyago.gabriel2017@gmail.com
-
-<p> <a href="mailto:hyago.gabriel2017@gmail.com"> <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /> </a> <a href="https://github.com/HyagoGDBraga"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /> </a> </p>
-<p align="center"> <i>Building systems. Learning every day.</i> </p>
+<p align="center"> <i>Code by day. Train by night. 🏋️</i> </p>
