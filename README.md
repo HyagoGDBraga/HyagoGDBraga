@@ -141,14 +141,6 @@ Semantic matching platform connecting candidates and opportunities.
   />
 </p>
 
-<p align="center">
-  <img
-    width="95%"
-    src="./profile/activity-graph.svg"
-    alt="GitHub Activity Graph"
-  />
-</p>
-
 ---
 
 ## 🎓 About
