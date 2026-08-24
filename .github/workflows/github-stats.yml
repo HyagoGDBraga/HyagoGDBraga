@@ -1,10 +1,6 @@
-ChatGPT said:
-Perfeito. Vamos adicionar somente o Activity Graph, sem tocar na parte dos Stats que já está verde.
-
-1. Substitua o workflow pelo seguinte
 name: Update GitHub Profile Stats
 
-on:
+'on':
   schedule:
     - cron: "0 0 * * 0"
 
@@ -18,18 +14,18 @@ permissions:
   contents: write
 
 jobs:
+
   generate-stats:
+    name: Generate GitHub Stats
     runs-on: ubuntu-latest
 
     steps:
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      # ================================
-      # GitHub Stats
-      # ================================
       - name: Generate GitHub Stats
         uses: stats-organization/github-readme-stats-action@v2
         with:
@@ -38,9 +34,6 @@ jobs:
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ================================
-      # Top Languages
-      # ================================
       - name: Generate Top Languages
         uses: stats-organization/github-readme-stats-action@v2
         with:
@@ -49,9 +42,6 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ================================
-      # Commit Stats
-      # ================================
       - name: Commit Stats
         run: |
           git config user.name "github-actions[bot]"
@@ -71,13 +61,12 @@ jobs:
 
           git push origin main
 
-  # ====================================
-  # Activity Graph
-  # ====================================
   activity-graph:
+    name: Generate Activity Graph
     runs-on: ubuntu-latest
 
     steps:
+
       - name: Generate Activity Graph
         uses: maurodesouza/github-readme-activity-graph-action@v1
         with:
