@@ -1,3 +1,7 @@
+ChatGPT said:
+Perfeito. Vamos adicionar somente o Activity Graph, sem tocar na parte dos Stats que já está verde.
+
+1. Substitua o workflow pelo seguinte
 name: Update GitHub Profile Stats
 
 on:
@@ -46,7 +50,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       # ================================
-      # Commit generated files
+      # Commit Stats
       # ================================
       - name: Commit Stats
         run: |
@@ -66,3 +70,26 @@ jobs:
           git rebase origin/main
 
           git push origin main
+
+  # ====================================
+  # Activity Graph
+  # ====================================
+  activity-graph:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate Activity Graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: HyagoGDBraga
+          options: theme=github-compact&hide_border=true&area=true
+          output_path: dist/activity-graph.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish Activity Graph
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          build_dir: dist
+          target_branch: output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
